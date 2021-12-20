@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class gameProject {
@@ -94,18 +95,22 @@ public class gameProject {
 
             if (duck == 1) {
                 level = "Easy";
+                System.out.println("");
                 System.out.println("I see you chose Easy - A little scared are you?");
                 System.out.println("");
             } else if (duck == 2) {
                 level = "Medium";
+                System.out.println("");
                 System.out.println("I see you chose Medium - Steppin it up just a little bit.");
                 System.out.println("");
             } else if (duck == 3) {
                 level = "Hard";
+                System.out.println("");
                 System.out.println("I see you chose Hard - How couragous!");
                 System.out.println("");
 
             } else {
+                System.out.println("");
                 System.out.println("That is not a valid entry. Try Again.");
                 System.out.println("");
 
